@@ -1,0 +1,7 @@
+# =================================
+# Ignorando ejecutables y archivos
+# no necesarios
+# =================================
+
+*.out
+*.txt
