@@ -46,7 +46,7 @@ int main(int argc, char** argv){
     random_ints(b,N);
 
     //Imprimiendo 
-    for(int i = N; i>=N-10; i--){
+    for(int i = 0; i< 20; i++){
         cout << *(a+i) << "\t" << *(b+i) << endl;
     }
 
@@ -69,7 +69,7 @@ int main(int argc, char** argv){
     cudaMemcpy(c,d_c,size,cudaMemcpyDeviceToHost);
 
     cout << endl;
-    for(int i = 0; i <= 10; i++){
+    for(int i = 0; i < 20; i++){
         cout << *(c+i) << endl;
     } 
 
